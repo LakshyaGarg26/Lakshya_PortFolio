@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import About from '../components/About'
 import Hero from '../components/Hero';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <About />
         <Skills />
         <Projects />
         <Certificates />
